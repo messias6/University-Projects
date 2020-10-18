@@ -1,4 +1,4 @@
-function [f_gray] = crop_img_sofia(Data, new_location,i)
+function [f_gray] = crop_img_s(Data, new_location,i)
 % Function to get an image portion with the car since using the all image
 % in the neural network would probably make it last longer when running.
 % Therefore, it only uses a portion (100x100).
